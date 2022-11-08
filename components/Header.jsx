@@ -44,6 +44,7 @@ function Header() {
             width={200}
             height={100}
             className='object-contain'
+            alt='logo'
         />
     </header>
   )
