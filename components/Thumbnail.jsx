@@ -4,9 +4,9 @@ import React from 'react'
 
 const BASE_URL = 'https://image.tmdb.org/t/p/original/'
 
-function Thumbnail({ result }) {
+const Thumbnail = (({ result }) =>  {
   return (
-    <div className='group cursor-pointer transition-all duration-200 ease-in transform sm:hover:scale-105 hover:z-50'>
+    <div className='group cursor-pointer transition-all duration-200 ease-in transform sm:hover:scale-105 hover:z-50 m-5'>
 
         <Image
             layout='responsive'
@@ -31,6 +31,6 @@ function Thumbnail({ result }) {
         
     </div>
   )
-}
+})
 
 export default Thumbnail
